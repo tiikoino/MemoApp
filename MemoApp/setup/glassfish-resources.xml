@@ -5,7 +5,7 @@
         <property name="serverName" value="localhost"/>
         <property name="portNumber" value="1527"/>
         <property name="databaseName" value="MemoDB"/>
-        <property name="User" value="app"/>
+        <property name="User" value="APP"/>
         <property name="Password" value="app"/>
         <property name="URL" value="jdbc:derby://localhost:1527/MemoDB"/>
         <property name="driverClass" value="org.apache.derby.jdbc.ClientDriver"/>

@@ -7,10 +7,10 @@
     </h:head>
     <h:body>
         <h:form prependId="false">
-            <h:outputText value="#{editMemoBean.editMemo.id}" />
-            <h:inputText value="#{editMemoBean.editMemo.memo}" />
+            <h:outputText value="#{memoEditBean.editMemo.id}" />
+            <h:inputText value="#{memoEditBean.editMemo.memo}" />
             <h:commandButton value="保存"
-                             actionListener="#{editMemoBean.updateMemo()}"
+                             actionListener="#{memoEditBean.updateMemo()}"
                              action="memo.xhtml" />
         </h:form>
     </h:body>
